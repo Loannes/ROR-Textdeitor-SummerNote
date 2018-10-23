@@ -6,6 +6,23 @@ git_source(:github) do |repo_name|
 end
 
 
+
+
+
+# 레일즈에서 제이쿼리 가능하게
+gem 'jquery-rails'
+
+# 심플폼
+gem 'simple_form'
+
+# 이미지 업로더
+gem 'carrierwave-base64'
+
+# 이미지 리사이징
+gem 'mini_magick'
+
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use sqlite3 as the database for Active Record
