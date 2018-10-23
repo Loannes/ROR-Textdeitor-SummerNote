@@ -17,8 +17,10 @@
 3. 잼 셋팅
     1. 부트스트랩
     2. 심플폼
+        1. rails g simple_form:install --bootstrap
     3. css, js 셋팅
     4. 케리웨이브
+        1. https://github.com/carrierwaveuploader/carrierwave
 4. 포스트 생성
     1. rails g scaffold Post title content:text file:string
 5. 썸머노트 설치
