@@ -7,7 +7,8 @@ end
 
 
 
-
+# 부트스트랩 CSS
+gem 'bootstrap'
 
 # 레일즈에서 제이쿼리 가능하게
 gem 'jquery-rails'
